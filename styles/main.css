@@ -37,11 +37,11 @@ li {
 }
 
 .form {
-  background-image: url('../img/write.jpg');
+  background-image: url("../img/write.jpg");
 }
 
 body {
-  background-color: aliceblue;
+  background-color: rgb(235, 225, 225);
   direction: rtl;
   width: 90%;
   margin: auto;
@@ -49,7 +49,7 @@ body {
 
 p,
 label {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   font-weight: 900;
   font-size: 1.2rem;
 }
@@ -59,7 +59,7 @@ label.card-text {
 }
 
 h1 {
-  font-family: 'Pattaya';
+  font-family: "Pattaya";
 }
 
 .copyright {
@@ -73,6 +73,14 @@ textarea {
   opacity: 0.5;
 }
 
+a {
+  text-decoration: none;
+}
+
+.bg-shadow {
+  box-shadow: 5px 5px 15px 5px #ff8080, -9px 5px 15px 5px #ffe488, -7px -5px 15px 5px #8cff85, 12px -5px 15px 5px #80c7ff, 12px 10px 15px 7px #e488ff, -10px 10px 15px 7px #ff616b, -10px -7px 27px 1px #8e5cff, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
 .hover-shadow > img {
   width: 250px;
   height: 250px;
@@ -84,7 +92,7 @@ textarea {
 }
 
 .row:after {
-  content: '';
+  content: "";
   display: table;
   clear: both;
 }
@@ -154,8 +162,8 @@ textarea {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+   -ms-user-select: none;
+       user-select: none;
   -webkit-user-select: none;
 }
 
@@ -203,8 +211,7 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   border-radius: 50%;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2),
-    2px 2px 2px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2), 2px 2px 2px 0 rgba(0, 0, 0, 0.19);
 }
 
 .accordion-body {
@@ -214,11 +221,11 @@ img.hover-shadow {
 .right {
   position: relative;
   -webkit-animation-name: mover;
-  animation-name: mover;
+          animation-name: mover;
   -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes mover {
@@ -241,11 +248,11 @@ img.hover-shadow {
 .left {
   position: relative;
   -webkit-animation-name: movel;
-  animation-name: movel;
+          animation-name: movel;
   -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes movel {
@@ -268,11 +275,11 @@ img.hover-shadow {
 .top {
   position: relative;
   -webkit-animation-name: top;
-  animation-name: top;
+          animation-name: top;
   -webkit-animation-duration: 4s;
-  animation-duration: 4s;
+          animation-duration: 4s;
   -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes top {
@@ -291,4 +298,4 @@ img.hover-shadow {
   100% {
     top: 0;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
