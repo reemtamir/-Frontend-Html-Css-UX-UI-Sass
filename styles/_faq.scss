@@ -1,0 +1,49 @@
+.accordion-body {
+  background-color: rgb(127, 172, 86);
+}
+
+.right {
+  position: relative;
+  animation-name: mover;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+@keyframes mover {
+  0% {
+    right: -1500px;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+.left {
+  position: relative;
+  animation-name: movel;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movel {
+  0% {
+    left: -1500px;
+  }
+  100% {
+    left: 0;
+  }
+}
+.top {
+  position: relative;
+  animation-name: top;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes top {
+  0% {
+    top: -1500px;
+  }
+  100% {
+    top: 0;
+  }
+}

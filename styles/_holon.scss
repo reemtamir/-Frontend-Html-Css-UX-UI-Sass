@@ -1,0 +1,29 @@
+.logo {
+  width: 120px;
+  height: 110px;
+  border-radius: 50%;
+  box-shadow: -5px 5px 115px 5px #5893cc;
+}
+.info {
+  width: 90%;
+}
+
+.carousel-item > img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.footer {
+  height: 50px;
+  text-align: center;
+}
+
+.footer img {
+  height: 30px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.footer img:hover {
+  height: 50px;
+}
