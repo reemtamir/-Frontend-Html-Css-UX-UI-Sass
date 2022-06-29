@@ -40,7 +40,7 @@
 
         <nav class="navbar d-flex">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler d-sm-block d-md-none"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarToggleExternalContent"
@@ -50,7 +50,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse" id="navbarToggleExternalContent">
+          <div
+            class="collapse d-md-block d-sm-none"
+            id="navbarToggleExternalContent"
+          >
             <ul class="d-flex">
               <li>
                 <a
@@ -138,42 +141,47 @@
         </div>
       </div>
 
-      <div
-        style="text-align: center"
-        class="carousel slide bg-shadow w-75 m-auto"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner" dir="ltr">
-          <div class="carousel-item d-block active w-100">
-            <p class="text-danger">עיריית חולון</p>
+      <div class="d-sm-block d-md-none text-center">
+        <img src="img/purim11.jpg" alt="" />
+      </div>
+      <div class="d-md-block d-none">
+        <div
+          style="text-align: center"
+          class="carousel slide bg-shadow w-75 m-auto"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner" dir="ltr">
+            <div class="carousel-item d-block active w-100">
+              <p class="text-danger">עיריית חולון</p>
 
-            <img src="img/img1.jpeg" alt=".." />
-          </div>
+              <img src="img/img1.jpeg" alt=".." />
+            </div>
 
-          <div class="carousel-item d-block w-100">
-            <p class="text-warning">מזמינה אתכם ואתכן</p>
-            <img src="img/img2.jpeg" alt="" />
-          </div>
-          <div class="carousel-item d-block w-100">
-            <p class="text-success">לחגוג את פורים</p>
-            <img src="img/img3.jpeg" alt="" />
-          </div>
-          <div class="carousel-item d-block w-100">
-            <p class="text-info">בתתהלוכה הגדולה מכולן</p>
-            <img src="img/img4.avif" alt=" " />
-          </div>
-          <div class="carousel-item d-block w-100">
-            <p class="text-danger fs-5">
-              <span class="text-primary">ה</span
-              ><span class="text-secondary">ע</span
-              ><span class="text-info">ד</span
-              ><span class="text-success">ל</span
-              ><span class="text-warning">א</span
-              ><span class="text-danger">י</span
-              ><span style="color: #9453a6">ד</span
-              ><span style="color: #f2cc0f">ע</span>
-            </p>
-            <img src="img/img5.jpeg" alt=".. " />
+            <div class="carousel-item d-block w-100">
+              <p class="text-warning">מזמינה אתכם ואתכן</p>
+              <img src="img/img2.jpeg" alt="" />
+            </div>
+            <div class="carousel-item d-block w-100">
+              <p class="text-success">לחגוג את פורים</p>
+              <img src="img/img3.jpeg" alt="" />
+            </div>
+            <div class="carousel-item d-block w-100">
+              <p class="text-info">בתתהלוכה הגדולה מכולן</p>
+              <img src="img/img4.avif" alt=" " />
+            </div>
+            <div class="carousel-item d-block w-100">
+              <p class="text-danger fs-5">
+                <span class="text-primary">ה</span
+                ><span class="text-secondary">ע</span
+                ><span class="text-info">ד</span
+                ><span class="text-success">ל</span
+                ><span class="text-warning">א</span
+                ><span class="text-danger">י</span
+                ><span style="color: #9453a6">ד</span
+                ><span style="color: #f2cc0f">ע</span>
+              </p>
+              <img src="img/img5.jpeg" alt=".. " />
+            </div>
           </div>
         </div>
       </div>
