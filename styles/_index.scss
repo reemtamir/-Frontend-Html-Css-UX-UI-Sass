@@ -7,7 +7,51 @@
 .info {
   width: 90%;
 }
+.a {
+  position: relative;
+  animation: go 4.5s forwards;
+}
+.b {
+  position: relative;
+  animation: go 4s forwards;
+}
+.c {
+  position: relative;
+  animation: go 3.5s forwards;
+}
+.d {
+  position: relative;
+  animation: go 3s forwards;
+}
+.e {
+  position: relative;
+  animation: go 2.5s forwards;
+}
+.f {
+  position: relative;
+  animation: go 2s forwards;
+}
+.g {
+  position: relative;
+  animation: go 1.5s forwards;
+}
+.h {
+  position: relative;
+  animation: go 1s forwards;
+}
 
+@keyframes go {
+  0% {
+    right: -1500px;
+    display: none;
+  }
+  50% {
+    display: block;
+  }
+  100% {
+    right: 0;
+  }
+}
 .footer {
   height: 50px;
   text-align: center;
@@ -31,4 +75,11 @@ li {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 12px #4b4c4b,
+    0px 0px 0px 16px #828482, 0px 0px 0px 20px #b2b5b2, 0px 0px 0px 24px #daddda,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }

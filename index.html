@@ -85,7 +85,17 @@
     </header>
 
     <main>
-      <h1 class="text-success p-5">העדלאידע</h1>
+      <p class="text-danger display-1 text-center m-auto mb-4">
+        <span class="a text-danger">ה</span>
+        <span class="b ms-5 text-success">ע</span
+        ><span class="c text-dark">ד</span>
+        <span class="d ms-5 text-info">ל</span
+        ><span class="e ms-5 text-primary">א</span
+        ><span class="f ms-5 text-secondary">י</span
+        ><span class="g ms-5 text-warning">ד</span
+        ><span class="h ms-5 text-muted">ע</span>
+      </p>
+
       <div class="info row text-secondary text-center m-auto">
         <p class="col-lg-5 col-md-12 col-sm-12 bg-shadow">
           תהלוכת פורים הגדולה במדינה מתקיימת מידי שנה בעיר חולון והיא מהווה שיאה
@@ -137,12 +147,13 @@
       </div>
       <div class="d-md-block d-none">
         <div
+          id="carouselExampleControls"
           style="text-align: center; height: 313px"
-          class="carousel slide bg-shadow w-75 m-auto"
+          class="carousel slide bg-shadow w-50 m-auto"
           data-bs-ride="carousel"
           date-bs-interval="2000"
         >
-          <div class="carousel-inner" dir="ltr">
+          <div class="carousel-inner">
             <div class="carousel-item active w-100">
               <p class="text-danger display-5">עיריית חולון</p>
 
@@ -176,6 +187,24 @@
               <img src="img/img5.jpeg" alt="אשה מאופרת " />
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
 
