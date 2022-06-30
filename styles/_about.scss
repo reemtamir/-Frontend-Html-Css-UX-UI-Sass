@@ -1,0 +1,40 @@
+.i {
+  position: relative;
+  animation: move-right 4s forwards;
+}
+.j {
+  position: relative;
+  animation: move-right 3.5s forwards;
+}
+.k {
+  position: relative;
+  animation: move-right 3s forwards;
+}
+.l {
+  position: relative;
+  animation: move-right 2.5s forwards;
+}
+.m {
+  position: relative;
+  animation: move-right 2s forwards;
+}
+.n {
+  position: relative;
+  animation: move-right 1.5s forwards;
+}
+.o {
+  position: relative;
+  animation: move-right 1s forwards;
+}
+@keyframes move-right {
+  0% {
+    right: -1500px;
+    display: none;
+  }
+  50% {
+    display: block;
+  }
+  100% {
+    right: 0;
+  }
+}

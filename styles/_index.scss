@@ -9,40 +9,39 @@
 }
 .a {
   position: relative;
-  animation: go 4.5s forwards;
+  animation: go-left 4.5s forwards;
 }
 .b {
   position: relative;
-  animation: go 4s forwards;
+  animation: go-left 4s forwards;
 }
 .c {
   position: relative;
-  animation: go 3.5s forwards;
+  animation: go-left 3.5s forwards;
 }
 .d {
   position: relative;
-  animation: go 3s forwards;
+  animation: go-left 3s forwards;
 }
 .e {
   position: relative;
-  animation: go 2.5s forwards;
+  animation: go-left 2.5s forwards;
 }
 .f {
   position: relative;
-  animation: go 2s forwards;
+  animation: go-left 2s forwards;
 }
 .g {
   position: relative;
-  animation: go 1.5s forwards;
+  animation: go-left 1.5s forwards;
 }
 .h {
   position: relative;
-  animation: go 1s forwards;
+  animation: go-left 1s forwards;
 }
-
-@keyframes go {
+@keyframes go-left {
   0% {
-    right: -1500px;
+    left: -1500px;
     display: none;
   }
   50% {
@@ -52,6 +51,7 @@
     right: 0;
   }
 }
+
 .footer {
   height: 50px;
   text-align: center;
