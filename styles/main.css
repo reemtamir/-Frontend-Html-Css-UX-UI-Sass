@@ -11,75 +11,75 @@
 
 .a {
   position: relative;
-  -webkit-animation: go-left 4.5s forwards;
-          animation: go-left 4.5s forwards;
+  -webkit-animation: go 4.5s forwards;
+          animation: go 4.5s forwards;
 }
 
 .b {
   position: relative;
-  -webkit-animation: go-left 4s forwards;
-          animation: go-left 4s forwards;
+  -webkit-animation: go 4s forwards;
+          animation: go 4s forwards;
 }
 
 .c {
   position: relative;
-  -webkit-animation: go-left 3.5s forwards;
-          animation: go-left 3.5s forwards;
+  -webkit-animation: go 3.5s forwards;
+          animation: go 3.5s forwards;
 }
 
 .d {
   position: relative;
-  -webkit-animation: go-left 3s forwards;
-          animation: go-left 3s forwards;
+  -webkit-animation: go 3s forwards;
+          animation: go 3s forwards;
 }
 
 .e {
   position: relative;
-  -webkit-animation: go-left 2.5s forwards;
-          animation: go-left 2.5s forwards;
+  -webkit-animation: go 2.5s forwards;
+          animation: go 2.5s forwards;
 }
 
 .f {
   position: relative;
-  -webkit-animation: go-left 2s forwards;
-          animation: go-left 2s forwards;
+  -webkit-animation: go 2s forwards;
+          animation: go 2s forwards;
 }
 
 .g {
   position: relative;
-  -webkit-animation: go-left 1.5s forwards;
-          animation: go-left 1.5s forwards;
+  -webkit-animation: go 1.5s forwards;
+          animation: go 1.5s forwards;
 }
 
 .h {
   position: relative;
-  -webkit-animation: go-left 1s forwards;
-          animation: go-left 1s forwards;
+  -webkit-animation: go 1s forwards;
+          animation: go 1s forwards;
 }
 
-@-webkit-keyframes go-left {
+@-webkit-keyframes go {
   0% {
-    left: -1500px;
+    right: -1500px;
     display: none;
   }
   50% {
     display: block;
   }
   100% {
-    right: 0;
+    left: 0;
   }
 }
 
-@keyframes go-left {
+@keyframes go {
   0% {
-    left: -1500px;
+    right: -1500px;
     display: none;
   }
   50% {
     display: block;
   }
   100% {
-    right: 0;
+    left: 0;
   }
 }
 .footer {
@@ -387,47 +387,47 @@ img.hover-shadow {
 }
 .i {
   position: relative;
-  -webkit-animation: move-right 4s forwards;
-          animation: move-right 4s forwards;
+  -webkit-animation: move 4s forwards;
+          animation: move 4s forwards;
 }
 
 .j {
   position: relative;
-  -webkit-animation: move-right 3.5s forwards;
-          animation: move-right 3.5s forwards;
+  -webkit-animation: move 3.5s forwards;
+          animation: move 3.5s forwards;
 }
 
 .k {
   position: relative;
-  -webkit-animation: move-right 3s forwards;
-          animation: move-right 3s forwards;
+  -webkit-animation: move 3s forwards;
+          animation: move 3s forwards;
 }
 
 .l {
   position: relative;
-  -webkit-animation: move-right 2.5s forwards;
-          animation: move-right 2.5s forwards;
+  -webkit-animation: move 2.5s forwards;
+          animation: move 2.5s forwards;
 }
 
 .m {
   position: relative;
-  -webkit-animation: move-right 2s forwards;
-          animation: move-right 2s forwards;
+  -webkit-animation: move 2s forwards;
+          animation: move 2s forwards;
 }
 
 .n {
   position: relative;
-  -webkit-animation: move-right 1.5s forwards;
-          animation: move-right 1.5s forwards;
+  -webkit-animation: move 1.5s forwards;
+          animation: move 1.5s forwards;
 }
 
 .o {
   position: relative;
-  -webkit-animation: move-right 1s forwards;
-          animation: move-right 1s forwards;
+  -webkit-animation: move 1s forwards;
+          animation: move 1s forwards;
 }
 
-@-webkit-keyframes move-right {
+@-webkit-keyframes move {
   0% {
     right: -1500px;
     display: none;
@@ -440,7 +440,7 @@ img.hover-shadow {
   }
 }
 
-@keyframes move-right {
+@keyframes move {
   0% {
     right: -1500px;
     display: none;
