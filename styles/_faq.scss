@@ -4,11 +4,11 @@
 
 .right {
   position: relative;
-  animation-name: mover;
+  animation-name: right;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
-@keyframes mover {
+@keyframes right {
   0% {
     right: -1500px;
   }
@@ -19,12 +19,12 @@
 
 .left {
   position: relative;
-  animation-name: movel;
+  animation-name: left;
   animation-duration: 4s;
   animation-fill-mode: forwards;
 }
 
-@keyframes movel {
+@keyframes left {
   0% {
     left: -1500px;
   }

@@ -9,37 +9,37 @@
 }
 .a {
   position: relative;
-  animation: go 4.5s forwards;
+  animation: header1 4.5s forwards;
 }
 .b {
   position: relative;
-  animation: go 4s forwards;
+  animation: header1 4s forwards;
 }
 .c {
   position: relative;
-  animation: go 3.5s forwards;
+  animation: header1 3.5s forwards;
 }
 .d {
   position: relative;
-  animation: go 3s forwards;
+  animation: header1 3s forwards;
 }
 .e {
   position: relative;
-  animation: go 2.5s forwards;
+  animation: header1 2.5s forwards;
 }
 .f {
   position: relative;
-  animation: go 2s forwards;
+  animation: header1 2s forwards;
 }
 .g {
   position: relative;
-  animation: go 1.5s forwards;
+  animation: header1 1.5s forwards;
 }
 .h {
   position: relative;
-  animation: go 1s forwards;
+  animation: header1 1s forwards;
 }
-@keyframes go {
+@keyframes header1 {
   0% {
     right: -1500px;
     display: none;
