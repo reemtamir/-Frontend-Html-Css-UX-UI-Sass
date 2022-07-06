@@ -9,5 +9,6 @@
   "notebook.markup.fontSize": 0,
   "notebook.outputFontSize": 0,
   "editor.lineHeight": 0,
-  "markdown.preview.lineHeight": 1.6
+  "markdown.preview.lineHeight": 1.6,
+  "liveServer.settings.port": 5501
 }
